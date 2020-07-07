@@ -1,1 +1,1 @@
-# matplotlib Youtube tutorial by Corey Schaefer with numpy
+matplotlib, numpy Youtube tutorial by Corey Schaefer 
