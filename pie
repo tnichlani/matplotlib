@@ -1,0 +1,20 @@
+#Plotting a pie chart using matplotlib
+
+
+from matplotlib import pyplot as plt 
+
+plt.style.use('fivethirtyeight')
+
+slices = [60, 40, 30, 20]
+labels = ['sixty', 'forty', 'thirty', 'twenty']
+colors = ['red', 'blue', 'yellow', 'green']
+explode = (0, 0.2, 0, 0) 
+
+plt.pie(slices, labels=labels, colors=colors, shadow=True, explode=explode, startangle=90)
+
+plt.title('pie chart')
+
+plt.tight_layout()
+
+plt.show()
+
